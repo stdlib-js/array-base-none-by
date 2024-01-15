@@ -80,6 +80,7 @@
     "test",
     "predicate",
     "every",
+    "none",
     "all",
     "array.every",
     "validate"
