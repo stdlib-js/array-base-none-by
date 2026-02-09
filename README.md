@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import noneBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-none-by@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-base-none-by/tags). For example,
+
+```javascript
 import noneBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-none-by@v0.2.3-esm/index.mjs';
 ```
 
@@ -144,7 +149,7 @@ var cnt = context.count;
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-bernoulli@esm/index.mjs';
 var isPositiveInteger = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-positive-integer' ).isPrimitive;
 import naryFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nary-function@esm/index.mjs';
-import noneBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-none-by@v0.2.3-esm/index.mjs';
+import noneBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-none-by@esm/index.mjs';
 
 var x = bernoulli( 10, 0.1, {
     'dtype': 'int8'
